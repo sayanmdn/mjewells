@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Apple-inspired design system */
+:root {
+  --primary-blue: #007AFF;
+  --primary-gray: #1D1D1F;
+  --secondary-gray: #6E6E73;
+  --light-gray: #F5F5F7;
+  --white: #FFFFFF;
+}
+
+/* Custom font smoothing for Apple-like appearance */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease;
+}
+
+/* Glass effect utility */
+.glass-effect {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Button hover effects */
+.button-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition-all duration-200 transform hover:scale-105;
+}
+
+.button-secondary {
+  @apply bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-full font-medium border border-white/20 transition-all duration-200;
+}
+
+/* Card styles */
+.team-card {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1;
+}
+
+.service-card {
+  @apply bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1;
+}

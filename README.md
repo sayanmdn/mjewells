@@ -1,33 +1,59 @@
-# Astro Starter Kit: Minimal
+# mjewells - Team Portfolio Website
 
-```sh
-npm create astro@latest -- --template minimal
-```
+A modern, Apple-inspired team portfolio website built with Astro and Tailwind CSS showcasing the mjewells team's expertise in industrial software development.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## 🎯 Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Apple-inspired Design**: Clean, modern UI with glass morphism effects and smooth animations
+- **Responsive Layout**: Optimized for all devices with mobile-first approach
+- **Team Showcase**: Individual team member profiles with skills and contact information
+- **Services Section**: Highlighting industrial software development capabilities
+- **SEO Optimized**: Complete meta tags, Open Graph, and Twitter Card support
+- **Fast Performance**: Built with Astro for optimal loading speeds
 
 ## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
 
 ```text
 /
 ├── public/
+│   └── favicon.svg
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── layouts/
+│   │   └── Layout.astro          # Base layout with SEO optimization
+│   ├── pages/
+│   │   └── index.astro           # Main portfolio page
+│   └── styles/
+│       └── global.css            # Apple-inspired design system
+├── team-data.md                  # Team member information
+├── package.json
+└── README.md
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 👥 Team Members
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+The portfolio showcases 5 expert developers:
 
-Any static assets, like images, can be placed in the `public/` directory.
+- **Arpan Dev** - Flutter Developer specializing in mobile development & AI integration
+- **Rishav Singh** - Full Stack Developer with expertise in React, Node.js, and Vue.js
+- **Suman Manna** - SDE-III focusing on enterprise architecture & cloud solutions
+- **Sayantan Mishra** - Sr. Software Engineer specializing in backend architecture
+- **Amol Shinde** - Salesforce Developer for CRM solutions & business automation
+
+## 🛠️ Services Offered
+
+- **Enterprise Software Development** - Large-scale industrial applications
+- **Cloud Infrastructure & DevOps** - AWS, Azure, Docker, Kubernetes
+- **Mobile Applications** - Flutter and React Native development
+- **CRM & Business Automation** - Salesforce solutions
+- **AI & ML Integration** - LLM integration and AI capabilities
+- **System Architecture** - Microservices and legacy modernization
+
+## 🚀 Technologies Used
+
+- **Frontend**: Astro, Tailwind CSS, TypeScript
+- **Design**: Apple-inspired UI with glass morphism effects
+- **Performance**: Optimized for fast loading and SEO
+- **Responsive**: Mobile-first design approach
 
 ## 🧞 Commands
 
