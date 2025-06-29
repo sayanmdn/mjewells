@@ -10,12 +10,13 @@ mjewells team portfolio website - A modern, Apple-inspired portfolio showcasing 
 - **Performance**: Static site generation with SEO optimization
 
 ## Team Information
-5 expert developers:
+6 expert developers:
 1. **Arpan Dev** - Flutter Developer @ Bluehorse (Mobile & AI Integration)
 2. **Rishav Singh** - Fullstack Developer @ EY (React, Node.js, Vue.js)
 3. **Suman Manna** - SDE-III @ Staples (Enterprise Architecture & Cloud)
 4. **Sayantan Mishra** - Sr. Software Engineer @ Recro (Backend Architecture)
 5. **Amol Shinde** - Salesforce Developer @ Compassionate Consulting (CRM & Automation)
+6. **Prakash Nayek** - Senior Consultant @ NTT DATA (Java, Microservices, Spring Boot)
 
 ## Contact Information
 - **Primary Email**: manna.suman134@gmail.com
