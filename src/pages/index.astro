@@ -3,55 +3,43 @@ import Layout from '../layouts/Layout.astro';
 
 const teamMembers = [
   {
-    name: "Arpan Dev",
-    position: "Flutter Developer @ Bluehorse",
+    name: "Arpan D",
+    position: "Flutter Developer",
     email: "hiitsarpandev@gmail.com",
-    linkedin: "https://www.linkedin.com/in/itsarpandev/",
-    portfolio: "https://arpandev-code.github.io/portfolio1/",
-    github: "https://github.com/Arpandev-code",
     techStack: ["Flutter", "Firebase", "LLM Integration", "REST API", "GraphQL"],
     specialty: "Mobile Development & AI Integration"
   },
   {
-    name: "Rishav Singh",
-    position: "Fullstack Developer @ EY",
+    name: "Rishav S",
+    position: "React/Vue.js Developer",
     email: "singh.rishabh30@gmail.com",
-    linkedin: "https://linkedin.com/in/rishabhsingh-859806135",
     phone: "7987590357",
     techStack: ["ReactJS", "NodeJS", "VueJS", "Redux", "Flutter", "HTML", "CSS"],
     specialty: "Full Stack Web & Mobile Development"
   },
   {
-    name: "Suman Manna",
-    position: "SDE-III @ Staples",
+    name: "Suman M",
+    position: "Cloud Solutions Architect",
     email: "manna.suman134@gmail.com",
-    linkedin: "https://www.linkedin.com/in/sumanmanna/",
-    portfolio: "https://bold.pro/my/sumanmanna",
-    github: "https://github.com/sumanmanna134",
     techStack: ["Java", "Spring Boot", "Microservices", "Docker", "Kubernetes", "AWS", "Azure", "Python"],
     specialty: "Enterprise Architecture & Cloud Solutions"
   },
   {
-    name: "Sayantan Mishra",
-    position: "Sr. Software Engineer @ Recro",
+    name: "Sayantan M",
+    position: "Backend Engineer",
     email: "sayanmdn@gmail.com",
-    linkedin: "https://linkedin.com/in/sayanmdn",
-    portfolio: "https://sayantanmishra.com/",
-    github: "https://github.com/sayanmdn",
     techStack: ["NodeJS", "TypeScript", "AWS", "Lambda", "GraphQL", "Redis", "MySQL", "MongoDB"],
     specialty: "Backend Architecture & Database Design"
   },
   {
-    name: "Amol Shinde",
-    position: "Salesforce Developer @ Compassionate Salesforce Consulting",
-    linkedin: "https://www.linkedin.com/in/amol-shinde-971007a4/",
+    name: "Amol S",
+    position: "Salesforce Developer",
     techStack: ["Salesforce", "Apex", "Lightning", "CRM"],
     specialty: "CRM Solutions & Business Process Automation"
   },
   {
-    name: "Prakash Nayek",
-    position: "Senior Consultant @ NTT DATA",
-    linkedin: "https://www.linkedin.com/in/prakash-nayak-b8a17860/",
+    name: "Prakash N",
+    position: "Java Microservices Developer",
     techStack: ["Java", "Microservices", "Spring Boot"],
     specialty: "Enterprise Java Solutions & Microservices Architecture"
   }
@@ -204,23 +192,6 @@ const services = [
               </div>
             </div>
             
-            <div class="flex space-x-3 text-sm">
-              {member.linkedin && (
-                <a href={member.linkedin} target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors">
-                  LinkedIn
-                </a>
-              )}
-              {member.github && (
-                <a href={member.github} target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors">
-                  GitHub
-                </a>
-              )}
-              {member.portfolio && (
-                <a href={member.portfolio} target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors">
-                  Portfolio
-                </a>
-              )}
-            </div>
           </div>
         ))}
       </div>
